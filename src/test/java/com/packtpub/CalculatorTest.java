@@ -12,6 +12,7 @@ public class CalculatorTest extends TestCase {
         int sum = calculator.sum(1, 2);
         Assert.assertEquals(3, sum);
 
+
     };
 
     public void testDic() throws Exception {
