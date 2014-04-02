@@ -7,6 +7,9 @@
     Calculator calculator = new Calculator();
     int sum = calculator.sum(1, 2);
     out.print("1 + 2 = " + sum);
+
+    float div = calculator.div(1,2);
+    out.print("1 / 2 = " + div);
 %>
 </body>
 
