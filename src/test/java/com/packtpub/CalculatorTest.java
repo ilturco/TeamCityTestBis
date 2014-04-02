@@ -16,7 +16,7 @@ public class CalculatorTest extends TestCase {
 
     public void testDic() throws Exception {
         Calculator calculator = new Calculator();
-        float div = calculator.sum(1, 2);
+        float div = calculator.sum(1, 3);
         Assert.assertEquals(0.5f, div);
 
     }
