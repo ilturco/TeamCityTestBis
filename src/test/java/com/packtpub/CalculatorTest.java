@@ -22,4 +22,11 @@ public class CalculatorTest extends TestCase {
         Assert.assertEquals(0.5f, div);
 
     }
+
+    public void testMult() throws Exception {
+        Calculator calculator = new Calculator();
+        int product = calculator.multiply(2, 3);
+        Assert.assertEquals(6, product);
+
+    }
 }
